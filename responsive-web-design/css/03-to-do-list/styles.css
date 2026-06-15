@@ -1,0 +1,52 @@
+body {
+    background-color: lightcyan;
+}
+
+.todo-card {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 400px;
+    padding: 20px;
+}
+
+.sub-item {
+    margin-bottom: 20px;
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+.todo-list {
+    list-style-type: none;
+}
+
+.sub-item-link {
+    text-decoration: none;
+}
+
+.list-item {
+    background-color: lightcyan;
+    padding: 5px 0;
+    margin-bottom: 10px;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: greenyellow;
+}
+
+a:focus {
+    outline: 2px solid orange;
+}
+
+a:active {
+    color: aqua;
+}
