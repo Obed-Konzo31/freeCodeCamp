@@ -1,20 +1,22 @@
 body {
     background-color: lightcyan;
+    font-family: sans-serif;
 }
 
 .todo-card {
     background-color: white;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 40px auto;
     text-align: center;
-    width: 400px;
-    padding: 20px;
+    width: 450px;
+    padding: 30px;
+    border-radius: 15px;
 }
 
 .sub-item {
     margin-bottom: 20px;
     list-style-type: square;
     list-style-position: inside;
+    margin-top: 10px;
 }
 
 .todo-list {
@@ -23,12 +25,15 @@ body {
 
 .sub-item-link {
     text-decoration: none;
+    color: blue;
 }
 
 .list-item {
     background-color: lightcyan;
-    padding: 5px 0;
-    margin-bottom: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    text-align: left;
 }
 
 a:link {
